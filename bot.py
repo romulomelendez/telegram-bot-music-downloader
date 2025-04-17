@@ -12,7 +12,7 @@ TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 # /start command
 async def start(update:Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Oi! Eu sou o MOJO 🎵. Me envie um link do YouTube ou o nome da música e artista.")
+    await update.message.reply_text("Hi! I'm MOJO 🎵! Send me a Youtube Video Link or a artista/song name")
 
 
 # Function to download audio
