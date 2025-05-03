@@ -25,6 +25,7 @@ def download_audio(consult_url, output_file):
 
     command = [
         'yt-dlp',
+        '--cookies', 'cookies.txt',
         '-x', '--audio-format', 'mp3',
         '-o', '%(title)s.mojo.%(ext)s',
         url
